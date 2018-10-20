@@ -27,10 +27,17 @@ Note: the tab key autocompletes commands and file/folder names, makes your life 
 Note: I wrote the following commands mostly in the order that they are used
 1) `git status` - This lets you view changes you've made in your project
 
-2) `git add <file or files>` - This adds files you want to commit to your repository. There's multiple ways to use this command:
-  a) `git add .` will add all the files with changes since your last commit which is also everything you see in red after running `git status`. The dot at the end of the command means all files in the current directory so you can use it
-  b) `git add app.js` will add app.js or add any changes made to the file if it already existed 
+1) `git add <file or files>` - This adds files you want to commit to your repository. There's multiple ways to use this command:
+   - `git add .` will add all the files with changes since your last commit which is also everything you see in red after running `git status`. The dot at the end of the command means all files in the current directory so you can use it
+   - `git add app.js` will add app.js or add any changes made to the file if it already existed 
 
-3) `git commit -m "your message here"`
-
-4) `git remote origin -v`
+1) `git commit -m "your message here"` This is probably the most important command in git. commiting your code is similar to saving it. You want your commits to be small and often because if you somehow lose your project, you'll be able to get all of the commited code back.
+1) `git push` This "pushes" the code you've commited to your remote repository. When you commit your changes, it's done locally so if you go to the project on GitHub you won't be able to see your commits until you push them
+1) `git remote -v` - this shows you the GitHub links that corresponds to your local project. For this project you should see:
+  ```
+  origin  https://github.com/Alma-Sanchez/Node-Project-Boilerplate.git (fetch)
+  origin  https://github.com/Alma-Sanchez/Node-Project-Boilerplate.git (push)
+  ```
+1) `git pull` - TODO
+1) `git stash` - TODO
+1) `git stash pop` - TODO
