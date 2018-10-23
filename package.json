@@ -1,0 +1,23 @@
+{
+  "name": "nodeProjectBoilerplate",
+  "version": "1.0.0",
+  "description": "Simple server in order to run JS locally",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "simple_start": "server.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "starter-pack",
+    "npm boilerplate",
+    "js"
+  ],
+  "author": "Alma Sanchez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
