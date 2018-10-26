@@ -18,6 +18,7 @@
   "author": "Alma Sanchez",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^5.8.0",
     "express": "4.16.3"
   }
 }
