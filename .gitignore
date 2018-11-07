@@ -16,6 +16,11 @@ pids
 *.seed
 *.pid.lock
 
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # VS Code editor
 .vscode/*
 !.vscode/settings.json
